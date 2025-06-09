@@ -1,0 +1,152 @@
+ <!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Barasa </title>
+    <style>
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #a5c0cf;
+            color: #333;
+            transition: background-color 0.5s, color 0.5s;
+        }
+        nav {
+            background-color: #240707;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #01e95a;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 1rem;
+            background: linear-gradient(to right, #d32f2f, #700630);
+            color: white;
+            animation: fadeIn 1s ease-in;
+        }
+        header img {
+            border-radius: 80%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            animation: slideDown 1s ease-out;
+        }
+        main {
+            max-width: 800px;
+            margin: auto;
+            padding: 2rem;
+            text-align: left;
+        }
+        section {
+            margin-bottom: 2rem;
+            animation: fadeInUp 1s ease-in-out;
+        }
+        h2 {
+            color: #d32f2f;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #ddd;
+            color: #083d83;
+            animation: fadeIn 2s ease-in;
+        }@keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+    @keyframes slideDown {
+        from {transform: translateY(-20px); opacity: 0;}
+        to {transform: translateY(0); opacity: 1;}
+    }
+
+    @keyframes fadeInUp {
+        from {transform: translateY(20px); opacity: 0;}
+        to {transform: translateY(0); opacity: 1;}
+    }
+</style>
+
+</head>
+<body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav><header>
+    <img src="barasa.jpg" alt="Brian Barasa">
+    <h1>Brian  Barasa</h1>
+    <p>Aspiring NIS Officer | Computer Science Student</p>
+</header>
+
+<main style="background-color:rgb(212, 233, 233) ;">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a dedicated Computer Science student at 
+            the National Youth Service Engineering Institute (NYSEI)
+             with a strong interest in Computer Networking, 
+             information systems, and software development.
+              My goal is to use technology to serve the nation
+               by contributing to the National Intelligence Service (NIS) in the comin future.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming languages i can use: Java, HTML, CSS, JavaScript, C++ and visual basic</li>
+            <li>Tools i use: Github, MS_SQL, Visual Studio Code</li>
+            <li>Soft Skills: Problem-solving, Teamwork, Communication</li>
+            <li>Currently  enrolled in Cisco academy for CCNA & CCNP certfication</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Ongoing Projects</h2>
+        <p><strong>Smart Hostel Management System </strong><br>
+        A web-based system for managing student registrations, room allocations, and hostel operations.<br>
+        <em>Programming technology being used:</em>MySQL,visual basic</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>National Youth Service (NYS)</strong><br>
+        Currently undertaking Computer Science Level 6 in NYS Engineering Institute<br>
+        2024 – Present</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact me through:</h2>
+        <p>Email: <a href="mailto:brianbarasa868@gmail.com">brianbarasa868@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/254701247845">+254 701 247 845</a></p>
+
+    </section>
+</main>
+
+<footer>
+    &copy; 2025 Brian Barasa | All Rights Reserved
+</footer>
+
+</body>
+</html>
